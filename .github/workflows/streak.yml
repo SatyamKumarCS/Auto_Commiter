@@ -1,9 +1,9 @@
 name: Daily GitHub Streak
 
 on:
-  schedule:
-    # Runs at 10:00 AM UTC every day
-    - cron: '0 10 * * *'
+  # schedule:
+  #   # Runs at 10:00 AM UTC every day
+  #   - cron: '0 10 * * *'
   workflow_dispatch: # Allows you to manually trigger it from the GitHub website
 
 jobs:
